@@ -1,4 +1,5 @@
 # The Site Configuration
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -73,6 +74,7 @@ img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/profile2.jpg"
+
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
