@@ -75,19 +75,7 @@ img_cdn: ''
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/profile2.jpg"
 
-sidebar {
-  ...
-  /* 원본 내용
-  background: var(--sidebar-bg);
-  */
 
-  /*
-  아래 3줄 추가
-  이미지는 assets/img/ 디렉토리에 넣어 주세요. 
-  */
-  background: url('/assets/img/1.jpg');
-  background-size: 100% 100%;
-  background-position: center;
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
