@@ -90,7 +90,7 @@ comments:
   # The active options are as follows:
   disqus:
     comments: true  # boolean type, the global switch for posts comments.
-    shortname: '이나영' 
+    shortname: 'LeeNaYoung240' 
    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
