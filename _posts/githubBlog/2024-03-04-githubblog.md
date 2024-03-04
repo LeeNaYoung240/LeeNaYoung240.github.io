@@ -1,7 +1,7 @@
 ---
 title: GitHub Blog 만들기 (2)
 author: The journey is the reward
-date:   2024-02-29 16:27:02 +09:00
+date:   2024-03-04 16:27:02 +09:00
 categories: [GitHub Blog]
 tags: [GitHub Blog]
 ---
