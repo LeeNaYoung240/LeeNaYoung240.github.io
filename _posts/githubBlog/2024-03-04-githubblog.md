@@ -2,8 +2,7 @@
 layout: post
 title: GitHub Blog 만들기 (2)
 date:   2024-03-04 16:55:02 +09:00
-home: GitHub Blog 만들기 (2)
-categories: [GitHub Blog, GitHub Blog 만들기 (2)]
+categories: [GitHub Blog]
 tags: [GitHub Blog]
 ---
 
