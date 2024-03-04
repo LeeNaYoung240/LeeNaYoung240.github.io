@@ -1,12 +1,12 @@
 ---
-layout: post
 title: GitHub Blog 만들기 (3)
-date:   2024-03-04 16:56:02 +09:00
+author: The journey is the reward
+date:   2024-02-29 16:27:02 +09:00
 categories: [GitHub Blog]
 tags: [GitHub Blog]
 ---
 
-## GitHub Blog 만들기 카테고리
+# GitHub Blog 만들기 카테고리
 ---
 [GitHub Blog 만들기 (1)](https://LeeNaYoung240.github.io/posts/2024-02-29-githubblog/)
 
