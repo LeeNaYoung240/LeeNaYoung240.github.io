@@ -28,7 +28,7 @@ Github Blog를 만들면서 수 많은 오류에 직면하며 여러 자료들�
 ---
 먼저 Github 계정 생성을 하면 다음과 같이 좌측 상단의 Repository를 확인 할 수 있습니다.
 
-![Desktop View](assets\img\2024-02-29\1.png)
+![Desktop View](/assets/img/2024-02-29/1.PNG)
  
 
  우측에서 New라는 버튼을 클립합니다. 
