@@ -28,13 +28,13 @@ Github Blog를 만들면서 수 많은 오류에 직면하며 여러 자료들�
 ---
 먼저 Github 계정 생성을 하면 다음과 같이 좌측 상단의 Repository를 확인 할 수 있습니다.
 
-<img src="/assets/img/2024-02-29/1.png">
-
+![Desktop View](assets\img\2024-02-29\1.png)
  
+
  우측에서 New라는 버튼을 클립합니다. 
  
  
-![Desktop View](/assets/img/2024-02-29/2.PNG)
+ ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/721aad96-c5b7-429b-b298-28cd618e631f)
 
 
 사용자 페이지는 https://username.github.io와 같은 주소형식을 가집니다. 
@@ -49,7 +49,7 @@ Public, Add a README file 선택 후 Create Repository 을 클릭합니다.
 # 3. 설정 방법
 ---
 
-![Desktop View](/assets/img/2024-02-29/3.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5c945cfd-837f-486f-bbc0-2216b265d7b4)
 
 
 상단의 사진과 같이 Repositories에 들어가면 username.github.io로 생성된 걸 볼 수 있습니다. 
@@ -57,13 +57,13 @@ Public, Add a README file 선택 후 Create Repository 을 클릭합니다.
 생성된 리포지토리인  username.github.io를 클릭합니다. 
 
  
-![Desktop View](/assets/img/2024-02-29/4.PNG)
+ ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5480ec1b-6a97-4405-95d0-78b265314b53)
 
 
 그 후 Settings를 클릭합니다.
 
 
-![Desktop View](/assets/img/2024-02-29/5.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/8e708572-5e95-4ef9-8d62-23e68fa06066)
 
 
 Pages 클릭한 뒤 branch를 main으로  맞춘 뒤 저장합니다.
@@ -71,7 +71,7 @@ Pages 클릭한 뒤 branch를 main으로  맞춘 뒤 저장합니다.
 
 그러면 상단에 
 
-![Desktop View](/assets/img/2024-02-29/6.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/292c9c9c-007d-4f98-a25f-f3a7764a4b7e)
 
 
 Github Page가 생성됩니다. (생성되는 시간은 -분 정도 걸릴 수 있습니다.)
@@ -97,25 +97,25 @@ Github Desktop을 실행하여 Github에 가입한 계정으로 로그인 합니
 
 
 
-![Desktop View](/assets/img/2024-02-29/7.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5204e8fa-ddf6-4c19-a709-b5969cc7519f)
 
 
 상단의 사진과 같이 Owner/username.github.o를 선택하고 clone합니다.
 
 
-![Desktop View](/assets/img/2024-02-29/8.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c9fbd7d7-4cf0-4e07-8618-9f502f8163bf)
 
 
 상단의 사진에서 Local path는 해당 경로의 폴더에 인터넷에 있는 Repository와 연동됩니다.
 
 
-![Desktop View](/assets/img/2024-02-29/9.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/3432e5a5-88b4-4aa6-9431-601400f632c2)
 
 
 좌측 상단이 정확히 진행되었는지 확인 하고 Open in Visual Studio Code 버튼을 누릅니다.
 
 
-![Desktop View](/assets/img/2024-02-29/10.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/77ff3cc9-4a44-4ecf-aeec-7c06457710f0)
 
 
 해당과 같이 VSCode가 열립니다. 그러면 좌측에 **ReadMe.md**라는 파일을 확인할 수 있습니다. 
@@ -130,19 +130,19 @@ username.github.io에 **index.html이라는 이름의 파일을 하나 생성합
 해당 코드를 작성해 줍니다. 
 
 
-![Desktop View](/assets/img/2024-02-29/11.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c6cc10b1-bc65-42d4-9756-ca5a44cf9faf)
 
 
 그 후,  Github Descktop에 들어오면 다음과 같이 변경 되어있을 것입니다.
 
 
-![Desktop View](/assets/img/2024-02-29/12.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/ce27157e-4ab7-4061-bdd9-cbe1be9cfddf)
 
 
 좌측 하단의 Commit to main 버튼을 눌러줍니다. 
 
 
-![Desktop View](/assets/img/2024-02-29/13.PNG)
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/68fbf5c2-92dc-4d8c-9aab-2fed0620bc62)
 
 
 그 후, Push origin 버튼을 눌러주면 됩니다.
@@ -156,22 +156,22 @@ Github 홈페이지의 username.github.io Repository에서 README.me 파일과 i
 Jekyll, Ruby 설치 전에 테마를 먼저 고릅니다. 다양한 Jekyll Themes를 지원하는 페이지가 있으니 원하시는 테마를 선택하시면 됩니다. 저는 <https://github.com/cotes2020/jekyll-theme-chirpy> 해당 github의 테마를 사용했습니다.
 
 
-![Desktop View](/assets/img/2024-02-29/14.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/b991a506-0828-4f00-a16d-bb850af7847b)
 
 
 Code를 클린 한 뒤, Download Zip을 눌러 해당 압출폴더를 다운로드 합니다.
 
 
 
-![Desktop View](/assets/img/2024-02-29/15.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/4156ec13-afe2-42aa-af15-8efb5456c56d)
 
 
 그 후, 본인의 Github Blog가 저장된 폴더에 
 
 
-![Desktop View](/assets/img/2024-02-29/16.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea05244e-8aec-492a-b51f-f8d4b2d4b6e4)
 
-![Desktop View](/assets/img/2024-02-29/17.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/391eb666-f6ee-478a-9b34-b9d5e733577b)
 
 
 다음과 같이 압축을 풀었습니다.  파일이 존재한다는 메시지가 뜬다면 덮어쓰기를 진행하면 됩니다.
@@ -185,7 +185,7 @@ Ruby를 설치하는 이유는 Jekyll이 Ruby로 만들어졌기 때문입니다
 
 ><https://www.ruby-lang.org/en/downloads/>
 
-![Desktop View](/assets/img/2024-02-29/18.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/fcb2ea39-6ac1-42d2-8d87-0ac19a1c2c7c)
 
 
 전 Ruby+Devkit 3.2.2-1 (x64)을 다운로드 받았습니다.
@@ -194,13 +194,13 @@ Ruby를 설치하는 이유는 Jekyll이 Ruby로 만들어졌기 때문입니다
 
 
 
-![Desktop View](/assets/img/2024-02-29/19.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/9bec5f89-3857-4393-b9d6-f142f8f7e5d3)
 
 
 그 후에 본인의 username.github.io이 저장된 경로로 이동해줍니다. 
 위치를 모른다면 
 
-![Desktop View](/assets/img/2024-02-29/20.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/942b54a0-880f-4f5d-a8d2-0da72089dcfd)
 
 다음과 같이 README.md 파일을 우클릭 후 **파일 탐색기에 표시** 버튼을 누르면 폴더 창을 통해 위치를 찾으면 됩니다.
 
@@ -238,7 +238,7 @@ Ruby를 설치하는 이유는 Jekyll이 Ruby로 만들어졌기 때문입니다
  jekyll new ./
 ```
 
-![Desktop View](/assets/img/2024-02-29/21.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/45e9afd0-2b1c-4572-a02a-95ea4e259e2b)
 
 
 해당 명령어를 실행할 때 다음과 같이 실행된다면 
@@ -247,7 +247,7 @@ Ruby를 설치하는 이유는 Jekyll이 Ruby로 만들어졌기 때문입니다
 jekyll new ./ --force
 ```
 
-![Desktop View](/assets/img/2024-02-29/22.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/5b4604b7-695b-469c-9479-e5d1141ebcea)
 
 
 다음과 같이 명령어를 작성하면 해결할 수 있습니다.
@@ -270,7 +270,7 @@ bundle install
 
 Github Desktop을 열면 좌측에 local에 붙여넣었던 파일명이 뜨게됩니다. 
 
-![Desktop View](/assets/img/2024-02-29/23.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/e36a38df-ec2e-4cf8-b6a3-7b3f1bc54cb0)
 
 
 Commit to main이라는 버튼을 눌러야되는데 활성화 되어있지 않습니다. 파일이 여러개이기 때문으로 내용을 직접 적은 후(아무 내용이나..)에 해당 버튼을 누른 뒤 Push origin 버튼을 눌러주면 됩니다.
@@ -284,9 +284,9 @@ Commit to main이라는 버튼을 눌러야되는데 활성화 되어있지 않�
 하지만 전 **"--- layout: home # Index page ---"**라는 오류에 직면하게 되었습니다.
 
 
-![Desktop View](/assets/img/2024-02-29/24.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea7b955f-deac-4de9-b45a-cce097f89b68)
 
-![Desktop View](/assets/img/2024-02-29/25.PNG)
+![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/16a5e32a-56a0-4bf3-a802-03164dcd0b0a)
 
 
 Github Setting - Pages - Build and development 에서 Source를 Github Action으로 변경 후, Jekyll.yml 으로 커밋 후에 해결할 수 있었습니다.
