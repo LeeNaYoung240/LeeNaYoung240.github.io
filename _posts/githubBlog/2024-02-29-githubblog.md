@@ -29,7 +29,8 @@ Github Blog를 만들면서 수 많은 오류에 직면하며 여러 자료들�
 ---
 먼저 Github 계정 생성을 하면 다음과 같이 좌측 상단의 Repository를 확인 할 수 있습니다.
 
-![Desktop View](/assets/img/2024-02-29/1.PNG)
+![1](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/f8522963-1052-42f1-966b-3d94b3421ab3)
+
  
 
  우측에서 New라는 버튼을 클립합니다. 
@@ -357,17 +358,18 @@ Jekyll 서버를 동작시킵니다.
 ---
 
 
-![Desktop View](/assets/img/2024-02-29/26.PNG)
+![26](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/41b3b367-7522-4895-a6df-558dd632e7c1)
+
 
 Github blog에 포스팅을 작성했는데 Home 버튼에 아무 게시글이 뜨지 않는 경우 해결 방법입니다.
 
 
-![Desktop View](/assets/img/2024-02-29/27.PNG)
+![27](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/de490648-dd0f-4117-9fab-0ebdd93f389e)
 
 ```_layout/home.html``` 파일을 열고 ```for post in posts``` 부분을
 
 
-![Desktop View](/assets/img/2024-02-29/28.PNG)
+![28](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/dab00422-4f68-4324-8166-f7327585f201)
 
 ```for post in site.posts``` 로 변경하면 됩니다.
 
