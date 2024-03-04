@@ -412,5 +412,13 @@ npm install -g win-node-env
 
 - .gitignore > ```aset/js/dist```를 주석처리 해주면 됩니다.
 
+위 방법으로도 해결이 되지 않는다면 
+
+```
+NODE_ENV=production npx rollup -c --bundleConfigAsCjs
+```
+
+해당 명령어를 실행합니다.
+
 
 궁금하신 부분이나 괜찮으셨다면 댓글 부탁드려요💨💨
