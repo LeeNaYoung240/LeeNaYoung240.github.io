@@ -354,7 +354,7 @@ Jekyll 서버를 동작시킵니다.
 -분 후에 본인의 Github blog 주소에 접속하여 정상적으로 페이지가 보일 것입니다.
 
 
-# 추가 - 해결 부분(Home 버튼에 게시글이 로딩되지 않는 경우)
+# 8. 추가 - 해결 부분(Home 버튼에 게시글이 로딩되지 않는 경우)
 ---
 
 
@@ -375,7 +375,7 @@ Github blog에 포스팅을 작성했는데 Home 버튼에 아무 게시글이 �
 
 
 
-# 추가 - 해결 부분(~.min.js 등이 존재하지 않는 오류)
+# 9. 추가 - 해결 부분(~.min.js 등이 존재하지 않는 오류)
 ---
 
 ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/a6bc01bd-4a23-4ab6-b4f6-007036843781)
@@ -388,6 +388,7 @@ Github blog에 포스팅을 작성했는데 Home 버튼에 아무 게시글이 �
   > <https://nodejs.org/en/download>
 
 
+
 다운로드 후에
 
 
@@ -397,7 +398,9 @@ npm run build
 
 상기의 명령어를 실행합니다.
 
+
 그러면 **NODE_ENV은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.**라고 나오게 됩니다.
+
 
 
 ```
@@ -412,13 +415,17 @@ npm install -g win-node-env
 
 - .gitignore > ```aset/js/dist```를 주석처리 해주면 됩니다.
 
+
+
 위 방법으로도 해결이 되지 않는다면 
+
 
 ```
 NODE_ENV=production npx rollup -c --bundleConfigAsCjs
 ```
 
 해당 명령어를 실행합니다.
+
 
 
 궁금하신 부분이나 괜찮으셨다면 댓글 부탁드려요💨💨
