@@ -48,7 +48,7 @@ Owner은 그대로 두고 Repository name에 사진과 같이 **username.github.
 Public, Add a README file 선택 후 Create Repository 을 클릭합니다.
 
 
-# 3. 설정 방법
+# 3. GitHub Setting 설정 방법
 ---
 
 ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5c945cfd-837f-486f-bbc0-2216b265d7b4)
@@ -354,7 +354,7 @@ Jekyll 서버를 동작시킵니다.
 -분 후에 본인의 Github blog 주소에 접속하여 정상적으로 페이지가 보일 것입니다.
 
 
-# 추가 
+# 추가 - 해결 부분(Home 버튼에 게시글이 로딩되지 않는 경우)
 ---
 
 
@@ -372,6 +372,45 @@ Github blog에 포스팅을 작성했는데 Home 버튼에 아무 게시글이 �
 ![28](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/dab00422-4f68-4324-8166-f7327585f201)
 
 ```for post in site.posts``` 로 변경하면 됩니다.
+
+
+
+# 추가 - 해결 부분(~.min.js 등이 존재하지 않는 오류)
+---
+
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/a6bc01bd-4a23-4ab6-b4f6-007036843781)
+
+
+블로그 게시글을 작성중에 상기의 오류 때문에 게시글 작성에 많은 어려움을 겪었습니다.
+
+이럴 경우 먼저, node.js를 다운로드 합니다.
+
+  > <https://nodejs.org/en/download>
+
+
+다운로드 후에
+
+
+```
+npm run build
+```
+
+상기의 명령어를 실행합니다.
+
+그러면 **NODE_ENV은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.**라고 나오게 됩니다.
+
+
+```
+npm install -g win-node-env
+```
+
+해당 명령어를 실행합니다.
+
+
+![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/0ba713fd-2cea-43c7-a3a8-4c66ee616fd4)
+
+
+- .gitignore > ```aset/js/dist```를 주석처리 해주면 됩니다.
 
 
 궁금하신 부분이나 괜찮으셨다면 댓글 부탁드려요💨💨
