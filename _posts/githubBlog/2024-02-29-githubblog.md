@@ -101,7 +101,7 @@ Github Desktop을 실행하여 Github에 가입한 계정으로 로그인 합니
 ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5204e8fa-ddf6-4c19-a709-b5969cc7519f)
 
 
-상단의 사진과 같이 Owner/username.github.o를 선택하고 clone합니다.
+상단의 사진과 같이 Owner/username.github.io를 선택하고 clone합니다.
 
 
 ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c9fbd7d7-4cf0-4e07-8618-9f502f8163bf)
