@@ -10,6 +10,22 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://leenayoung240.github.io/posts/githubblog/</loc>
+  <lastmod>2024-02-29T10:22:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://leenayoung240.github.io/posts/java1/</loc>
+  <lastmod>2024-03-05T10:22:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://leenayoung240.github.io/posts/java2/</loc>
+  <lastmod>2024-03-05T10:22:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
+<url>
   <loc>https://leenayoung240.github.io/categories/</loc>
   <lastmod>2024-01-15T14:59:37+00:00</lastmod>
   <priority>0.80</priority>
@@ -99,20 +115,3 @@
   <lastmod>2024-01-15T14:59:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-<url>
-  <loc>https://leenayoung240.github.io/posts/githubblog/</loc>
-  <lastmod>2024-02-29T10:22:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://leenayoung240.github.io/posts/java1/</loc>
-  <lastmod>2024-03-05T10:22:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://leenayoung240.github.io/posts/java2/</loc>
-  <lastmod>2024-03-05T10:22:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-</urlset>
