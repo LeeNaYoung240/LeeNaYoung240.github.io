@@ -29,14 +29,14 @@ Github Blog를 만들면서 수 많은 오류에 직면하며 여러 자료들�
 ---
 먼저 Github 계정 생성을 하면 다음과 같이 좌측 상단의 Repository를 확인 할 수 있습니다.
 
-![1](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/f8522963-1052-42f1-966b-3d94b3421ab3)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/f8522963-1052-42f1-966b-3d94b3421ab3" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/f8522963-1052-42f1-966b-3d94b3421ab3" alt="1" loading="lazy"></a>
 
  
 
  우측에서 New라는 버튼을 클립합니다. 
  
- 
- ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/721aad96-c5b7-429b-b298-28cd618e631f)
+ <a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/721aad96-c5b7-429b-b298-28cd618e631f" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/721aad96-c5b7-429b-b298-28cd618e631f" alt="1" loading="lazy"></a>
+
 
 
 사용자 페이지는 https://username.github.io와 같은 주소형식을 가집니다. 
@@ -51,21 +51,20 @@ Public, Add a README file 선택 후 Create Repository 을 클릭합니다.
 # 3. GitHub Setting 설정 방법
 ---
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5c945cfd-837f-486f-bbc0-2216b265d7b4)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5c945cfd-837f-486f-bbc0-2216b265d7b4" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5c945cfd-837f-486f-bbc0-2216b265d7b4" alt="1" loading="lazy"></a>
+
 
 
 상단의 사진과 같이 Repositories에 들어가면 username.github.io로 생성된 걸 볼 수 있습니다. 
 
 생성된 리포지토리인  username.github.io를 클릭합니다. 
 
- 
- ![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5480ec1b-6a97-4405-95d0-78b265314b53)
+ <a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5480ec1b-6a97-4405-95d0-78b265314b53" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5480ec1b-6a97-4405-95d0-78b265314b53" alt="1" loading="lazy"></a>
 
 
 그 후 Settings를 클릭합니다.
 
-
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/8e708572-5e95-4ef9-8d62-23e68fa06066)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/8e708572-5e95-4ef9-8d62-23e68fa06066" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/8e708572-5e95-4ef9-8d62-23e68fa06066" alt="1" loading="lazy"></a>
 
 
 Pages 클릭한 뒤 branch를 main으로  맞춘 뒤 저장합니다.
@@ -73,7 +72,8 @@ Pages 클릭한 뒤 branch를 main으로  맞춘 뒤 저장합니다.
 
 그러면 상단에 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/292c9c9c-007d-4f98-a25f-f3a7764a4b7e)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/292c9c9c-007d-4f98-a25f-f3a7764a4b7e" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/292c9c9c-007d-4f98-a25f-f3a7764a4b7e" alt="1" loading="lazy"></a>
+
 
 
 Github Page가 생성됩니다. (생성되는 시간은 -분 정도 걸릴 수 있습니다.)
@@ -98,25 +98,27 @@ Github Desktop을 실행하여 Github에 가입한 계정으로 로그인 합니
 
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5204e8fa-ddf6-4c19-a709-b5969cc7519f)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5204e8fa-ddf6-4c19-a709-b5969cc7519f" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/5204e8fa-ddf6-4c19-a709-b5969cc7519f" alt="1" loading="lazy"></a>
+
 
 
 상단의 사진과 같이 Owner/username.github.io를 선택하고 clone합니다.
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c9fbd7d7-4cf0-4e07-8618-9f502f8163bf)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c9fbd7d7-4cf0-4e07-8618-9f502f8163bf" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c9fbd7d7-4cf0-4e07-8618-9f502f8163bf" alt="1" loading="lazy"></a>
 
 
 상단의 사진에서 Local path는 해당 경로의 폴더에 인터넷에 있는 Repository와 연동됩니다.
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/3432e5a5-88b4-4aa6-9431-601400f632c2)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/3432e5a5-88b4-4aa6-9431-601400f632c2" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/3432e5a5-88b4-4aa6-9431-601400f632c2" alt="1" loading="lazy"></a>
 
 
 좌측 상단이 정확히 진행되었는지 확인 하고 Open in Visual Studio Code 버튼을 누릅니다.
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/77ff3cc9-4a44-4ecf-aeec-7c06457710f0)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/77ff3cc9-4a44-4ecf-aeec-7c06457710f0" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/77ff3cc9-4a44-4ecf-aeec-7c06457710f0" alt="1" loading="lazy"></a>
+
 
 
 해당과 같이 VSCode가 열립니다. 그러면 좌측에 **ReadMe.md**라는 파일을 확인할 수 있습니다. 
@@ -131,19 +133,22 @@ username.github.io에 **index.html이라는 이름의 파일을 하나 생성합
 해당 코드를 작성해 줍니다. 
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c6cc10b1-bc65-42d4-9756-ca5a44cf9faf)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c6cc10b1-bc65-42d4-9756-ca5a44cf9faf" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c6cc10b1-bc65-42d4-9756-ca5a44cf9faf" alt="1" loading="lazy"></a>
+
 
 
 그 후,  Github Descktop에 들어오면 다음과 같이 변경 되어있을 것입니다.
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/ce27157e-4ab7-4061-bdd9-cbe1be9cfddf)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/ce27157e-4ab7-4061-bdd9-cbe1be9cfddf" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/ce27157e-4ab7-4061-bdd9-cbe1be9cfddf" alt="1" loading="lazy"></a>
+
 
 
 좌측 하단의 Commit to main 버튼을 눌러줍니다. 
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/68fbf5c2-92dc-4d8c-9aab-2fed0620bc62)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/68fbf5c2-92dc-4d8c-9aab-2fed0620bc62" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/68fbf5c2-92dc-4d8c-9aab-2fed0620bc62" alt="1" loading="lazy"></a>
+
 
 
 그 후, Push origin 버튼을 눌러주면 됩니다.
@@ -156,23 +161,21 @@ Github 홈페이지의 username.github.io Repository에서 README.me 파일과 i
 
 Jekyll, Ruby 설치 전에 테마를 먼저 고릅니다. 다양한 Jekyll Themes를 지원하는 페이지가 있으니 원하시는 테마를 선택하시면 됩니다. 저는 <https://github.com/cotes2020/jekyll-theme-chirpy> 해당 github의 테마를 사용했습니다.
 
-
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/b991a506-0828-4f00-a16d-bb850af7847b)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/b991a506-0828-4f00-a16d-bb850af7847b" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/b991a506-0828-4f00-a16d-bb850af7847b" alt="image" loading="lazy"></a>
 
 
 Code를 클린 한 뒤, Download Zip을 눌러 해당 압출폴더를 다운로드 합니다.
 
-
-
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/4156ec13-afe2-42aa-af15-8efb5456c56d)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/4156ec13-afe2-42aa-af15-8efb5456c56d" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/4156ec13-afe2-42aa-af15-8efb5456c56d" alt="image" loading="lazy"></a>
 
 
 그 후, 본인의 Github Blog가 저장된 폴더에 
 
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea05244e-8aec-492a-b51f-f8d4b2d4b6e4)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea05244e-8aec-492a-b51f-f8d4b2d4b6e4" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea05244e-8aec-492a-b51f-f8d4b2d4b6e4" alt="image" loading="lazy"></a>
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/391eb666-f6ee-478a-9b34-b9d5e733577b)
+
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/391eb666-f6ee-478a-9b34-b9d5e733577b" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/391eb666-f6ee-478a-9b34-b9d5e733577b" alt="image" loading="lazy"></a>
 
 
 다음과 같이 압축을 풀었습니다.  파일이 존재한다는 메시지가 뜬다면 덮어쓰기를 진행하면 됩니다.
@@ -186,22 +189,22 @@ Ruby를 설치하는 이유는 Jekyll이 Ruby로 만들어졌기 때문입니다
 
 ><https://www.ruby-lang.org/en/downloads/>
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/fcb2ea39-6ac1-42d2-8d87-0ac19a1c2c7c)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/fcb2ea39-6ac1-42d2-8d87-0ac19a1c2c7c" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/fcb2ea39-6ac1-42d2-8d87-0ac19a1c2c7c" alt="image" loading="lazy"></a>
 
 
 전 Ruby+Devkit 3.2.2-1 (x64)을 다운로드 받았습니다.
 
 설치 후에 윈도우 검색창에서 Start Command Prompt with Ruby를 실행합니다.
 
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/9bec5f89-3857-4393-b9d6-f142f8f7e5d3" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/9bec5f89-3857-4393-b9d6-f142f8f7e5d3" alt="image" loading="lazy"></a>
 
-
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/9bec5f89-3857-4393-b9d6-f142f8f7e5d3)
 
 
 그 후에 본인의 username.github.io이 저장된 경로로 이동해줍니다. 
 위치를 모른다면 
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/942b54a0-880f-4f5d-a8d2-0da72089dcfd)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/942b54a0-880f-4f5d-a8d2-0da72089dcfd" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/942b54a0-880f-4f5d-a8d2-0da72089dcfd" alt="image" loading="lazy"></a>
+
 
 다음과 같이 README.md 파일을 우클릭 후 **파일 탐색기에 표시** 버튼을 누르면 폴더 창을 통해 위치를 찾으면 됩니다.
 
@@ -239,7 +242,7 @@ Ruby를 설치하는 이유는 Jekyll이 Ruby로 만들어졌기 때문입니다
  jekyll new ./
 ```
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/45e9afd0-2b1c-4572-a02a-95ea4e259e2b)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/45e9afd0-2b1c-4572-a02a-95ea4e259e2b" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/45e9afd0-2b1c-4572-a02a-95ea4e259e2b" alt="image" loading="lazy"></a>
 
 
 해당 명령어를 실행할 때 다음과 같이 실행된다면 
@@ -248,7 +251,8 @@ Ruby를 설치하는 이유는 Jekyll이 Ruby로 만들어졌기 때문입니다
 jekyll new ./ --force
 ```
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/5b4604b7-695b-469c-9479-e5d1141ebcea)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/5b4604b7-695b-469c-9479-e5d1141ebcea" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/5b4604b7-695b-469c-9479-e5d1141ebcea" alt="image" loading="lazy"></a>
+
 
 
 다음과 같이 명령어를 작성하면 해결할 수 있습니다.
@@ -271,7 +275,7 @@ bundle install
 
 Github Desktop을 열면 좌측에 local에 붙여넣었던 파일명이 뜨게됩니다. 
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/e36a38df-ec2e-4cf8-b6a3-7b3f1bc54cb0)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/e36a38df-ec2e-4cf8-b6a3-7b3f1bc54cb0" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/e36a38df-ec2e-4cf8-b6a3-7b3f1bc54cb0" alt="image" loading="lazy"></a>
 
 
 Commit to main이라는 버튼을 눌러야되는데 활성화 되어있지 않습니다. 파일이 여러개이기 때문으로 내용을 직접 적은 후(아무 내용이나..)에 해당 버튼을 누른 뒤 Push origin 버튼을 눌러주면 됩니다.
@@ -284,9 +288,11 @@ Commit to main이라는 버튼을 눌러야되는데 활성화 되어있지 않�
 하지만 전 **"--- layout: home # Index page ---"**라는 오류에 직면하게 되었습니다.
 
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea7b955f-deac-4de9-b45a-cce097f89b68)
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea7b955f-deac-4de9-b45a-cce097f89b68" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/ea7b955f-deac-4de9-b45a-cce097f89b68" alt="image" loading="lazy"></a>
 
-![image](https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/16a5e32a-56a0-4bf3-a802-03164dcd0b0a)
+
+<a href="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/16a5e32a-56a0-4bf3-a802-03164dcd0b0a" class="popup img-link"><img src="https://github.com/LeeNaYoung240/Comment-Management/assets/107848521/16a5e32a-56a0-4bf3-a802-03164dcd0b0a" alt="image" loading="lazy"></a>
+
 
 
 Github Setting - Pages - Build and development 에서 Source를 Github Action으로 변경 후, Jekyll.yml 으로 커밋 후에 해결할 수 있었습니다.
@@ -358,18 +364,20 @@ Jekyll 서버를 동작시킵니다.
 ---
 
 
-![26](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/41b3b367-7522-4895-a6df-558dd632e7c1)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/41b3b367-7522-4895-a6df-558dd632e7c1" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/41b3b367-7522-4895-a6df-558dd632e7c1" alt="1" loading="lazy"></a>
 
 
 Github blog에 포스팅을 작성했는데 Home 버튼에 아무 게시글이 뜨지 않는 경우 해결 방법입니다.
 
 
-![27](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/de490648-dd0f-4117-9fab-0ebdd93f389e)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/de490648-dd0f-4117-9fab-0ebdd93f389e" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/de490648-dd0f-4117-9fab-0ebdd93f389e" alt="1" loading="lazy"></a>
+
 
 ```_layout/home.html``` 파일을 열고 ```for post in posts``` 부분을
 
 
-![28](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/dab00422-4f68-4324-8166-f7327585f201)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/dab00422-4f68-4324-8166-f7327585f201" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/dab00422-4f68-4324-8166-f7327585f201" alt="1" loading="lazy"></a>
+
 
 ```for post in site.posts``` 로 변경하면 됩니다.
 
@@ -378,7 +386,8 @@ Github blog에 포스팅을 작성했는데 Home 버튼에 아무 게시글이 �
 # 9. 추가 - 해결 부분(~.min.js 등이 존재하지 않는 오류)
 ---
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/a6bc01bd-4a23-4ab6-b4f6-007036843781)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/a6bc01bd-4a23-4ab6-b4f6-007036843781" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/a6bc01bd-4a23-4ab6-b4f6-007036843781" alt="1" loading="lazy"></a>
+
 
 
 블로그 게시글을 작성중에 상기의 오류 때문에 게시글 작성에 많은 어려움을 겪었습니다.
@@ -410,7 +419,8 @@ npm install -g win-node-env
 해당 명령어를 실행합니다.
 
 
-![image](https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/0ba713fd-2cea-43c7-a3a8-4c66ee616fd4)
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/0ba713fd-2cea-43c7-a3a8-4c66ee616fd4" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/0ba713fd-2cea-43c7-a3a8-4c66ee616fd4" alt="1" loading="lazy"></a>
+
 
 
 - .gitignore > ```aset/js/dist```를 주석처리 해주면 됩니다.
