@@ -437,5 +437,55 @@ NODE_ENV=production npx rollup -c --bundleConfigAsCjs
 해당 명령어를 실행합니다.
 
 
+# 10. 추가 - 해결 부분(image가 반짝이는 현상, Shimmer 현상)
+---
+
+블로그 게시글에 이미지를 첨부했는데 image가 다음과 같이 빛나는 현상을 겪게 되었고 아무리 검색해도 나오지 않았습니다. (아마도 저 말고는 이 현상을 겪는 사람은 없는 것으로 보이지만 혹시나 한 분이라도 같은 현상을 겪으실 분을 위해..)
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/86f85c78-d06e-4ab3-9666-2e2a96104acc" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/86f85c78-d06e-4ab3-9666-2e2a96104acc" alt="1" loading="lazy"></a>
+
+
+상기의 사진과 같이 반짝이는 현상이 지속됐습니다. 이미지를 지우고 업로드 했음에도 동일했습니다.
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/0e82e695-dec9-49e5-bff0-380f0bc82c59" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/0e82e695-dec9-49e5-bff0-380f0bc82c59" alt="1" loading="lazy"></a>
+
+
+현재 전 웹개발 강의를 듣고 있는데 이미지에 대한 수정 작업을 할 때 "검사"를 많이 사용했습니다.
+
+그래서 무슨 이유인지 보려고 이미지 오른쪽 버튼 검사를 눌러 요소 부분을 확인했습니다.
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/a811a4e3-3d8d-4043-b71b-7b0dc6df8612" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/a811a4e3-3d8d-4043-b71b-7b0dc6df8612" alt="1" loading="lazy"></a>
+
+> 상기의 사진은 수정된 부분으로 고쳐진 상태입니다.
+
+<br>
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/cb62ded2-9e7b-4c5a-9e7d-c0cd9d0c219e" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/cb62ded2-9e7b-4c5a-9e7d-c0cd9d0c219e" alt="1" loading="lazy"></a>
+
+
+해당 영상과 같이 이미지의 특정 부분에 반짝이는 효과를 볼 수 있었습니다.
+그리고 친구의 도움으로 원인을 찾아냈고 고칠 수 있게 되었습니다. (금세야 고마워..)
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/503b404e-138e-45ca-b18d-0c1e0efe8a90" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/503b404e-138e-45ca-b18d-0c1e0efe8a90" alt="1" loading="lazy"></a>
+
+
+요소 부분의 before을 누르면 나오는 스타일 창에  animation이 표시되고 shimmer이라는 효과를 확인할 수 있었습니다. 
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/7c0e5645-183f-4358-a5d1-e8d1318383e0" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/7c0e5645-183f-4358-a5d1-e8d1318383e0" alt="1" loading="lazy"></a>
+
+
+해당 class 부분의 **shimmer**을 지워줍니다.
+
+그리고 해당 html을 복사하여 기본 이미지 첨부하는 방법 대신 사용하였습니다.
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c299abcc-d8c3-48a3-8912-c49afdd7da1d" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/c299abcc-d8c3-48a3-8912-c49afdd7da1d" alt="1" loading="lazy"></a>
+
+
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/f4e31347-1df8-4e91-b1fa-4e94a15701a4" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/f4e31347-1df8-4e91-b1fa-4e94a15701a4" alt="1" loading="lazy"></a>
+
+
+더 나은 방법이 있을 것이라 생각하지만 이를 통해 해결하게 되었습니다.
+
 
 궁금하신 부분이나 괜찮으셨다면 댓글 부탁드려요💨💨
