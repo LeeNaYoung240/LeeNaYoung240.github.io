@@ -20,4 +20,4 @@
 
 - github blog 테마 다운받은 공간으로 커스텀하여 블로그를 게시하고 있습니다.
 
-
+📌 블로그 주소 : https://LeeNaYoung240.github.io/
