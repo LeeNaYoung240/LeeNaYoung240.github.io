@@ -720,7 +720,7 @@ $btn-mb: 0.5rem;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+    /*box-shadow: var(--avatar-border-color) 0 0 0 2px;*/
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     img {
@@ -1387,7 +1387,7 @@ search {
       margin-top: 3rem;
     }
   }
-
+ 
   div.content .table-wrapper > table {
     min-width: 70%;
   }
