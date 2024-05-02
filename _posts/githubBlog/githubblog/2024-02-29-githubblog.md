@@ -488,4 +488,20 @@ NODE_ENV=production npx rollup -c --bundleConfigAsCjs
 더 나은 방법이 있을 것이라 생각하지만 이를 통해 해결하게 되었습니다.
 
 
+# 11. 블로그 커스터마이징
+
+---
+
+- 좌측 프로필 이미지의 테두리를 저와 같이 안 보이게 수정하고 싶으시다면
+- 
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/e9077ddf-5a0f-4215-9016-1579182f59c7" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/e9077ddf-5a0f-4215-9016-1579182f59c7" alt="1" loading="lazy"></a>
+
+- `_sass / commons.scss`의 #avatar{ } 안의 box-shadow를 주석처리 하면 됩니다! 
+
+<a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/95ceaadd-d6bb-4255-a9a2-9585cbbe3728" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/95ceaadd-d6bb-4255-a9a2-9585cbbe3728" alt="1" loading="lazy"></a>
+
+- 다음과 같이 이미지 테두리 효과를 제거하였습니다.
+
+
+
 궁금하신 부분이나 괜찮으셨다면 댓글 부탁드려요💨💨
