@@ -493,7 +493,7 @@ NODE_ENV=production npx rollup -c --bundleConfigAsCjs
 ---
 
 - 좌측 프로필 이미지의 테두리를 저와 같이 안 보이게 수정하고 싶으시다면
-- 
+
 <a href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/e9077ddf-5a0f-4215-9016-1579182f59c7" class="popup img-link"><img src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/e9077ddf-5a0f-4215-9016-1579182f59c7" alt="1" loading="lazy"></a>
 
 - `_sass / commons.scss`의 #avatar{ } 안의 box-shadow를 주석처리 하면 됩니다! 
