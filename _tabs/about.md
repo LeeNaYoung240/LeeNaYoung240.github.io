@@ -1,8 +1,18 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: About
+menu: true
+order: 10
+permalink: /about/
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## 소개
+
+안녕하세요. 백엔드 개발자를 목표로 하고 있습니다.
+
+저는 꾸미는 것을 굉장히 좋아합니다.
+
+틀에 박히지 않은 블로그로 기록하고자 Github Page 블로그를 시작했습니다.
+
+가끔 들려주세요 ✨
+
