@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About
+title: 💌💦
 menu: true
 order: 10
 permalink: /about/
 ---
 
 
-<a  href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/ce23bfc7-44ad-4cad-b9b1-b4150296ee37"  class="popup img-link"><img  src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/ce23bfc7-44ad-4cad-b9b1-b4150296ee37"  alt="1"  loading="lazy"></a>  
+<a  href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/1151cf89-24f0-411d-9e5c-4398d509d6aa"  class="popup img-link"><img  src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/1151cf89-24f0-411d-9e5c-4398d509d6aa"  alt="1"  loading="lazy"></a>  
 
 안녕하세요. 백엔드 개발자를 목표로 하고 있습니다 🤸🏻‍♀️
 
