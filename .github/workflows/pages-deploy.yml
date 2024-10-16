@@ -39,9 +39,10 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Setup Ruby
-        run: |
-          curl -sSL https://get.rvm.io | bash -s stable --ruby --version 3.2.2
-          source /etc/profile.d/rvm.sh
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2.2
+          bundler-cache: true
 
       - name: Install dependencies
         run: bundle install
