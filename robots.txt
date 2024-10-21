@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://LeeNaYoung240.github.io/sitemap.xml
