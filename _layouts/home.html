@@ -11,7 +11,6 @@ refactor: true
 {% assign posts = '' | split: '' %}
 
 <!-- Get pinned posts -->
-
 {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
 {% assign pinned_num = pinned.size | minus: offset %}
 
@@ -24,9 +23,7 @@ refactor: true
 {% endif %}
 
 <!-- Get default posts -->
-
 {% assign default_beg = offset | minus: pinned.size %}
-
 {% if default_beg < 0 %}
   {% assign default_beg = 0 %}
 {% endif %}
@@ -41,7 +38,7 @@ refactor: true
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in site.posts %}
+  {% for post in posts %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
@@ -53,9 +50,7 @@ refactor: true
           {% endunless %}
 
           {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
-
           {% assign lqip = null %}
-
           {% if post.image.lqip %}
             {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
           {% endif %}
@@ -63,7 +58,6 @@ refactor: true
           <div class="col-md-5">
             <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
           </div>
-
           {% assign card_body_col = '7' %}
         {% endif %}
 
@@ -114,29 +108,5 @@ refactor: true
 <!-- #post-list -->
 
 {% if paginator.total_pages > 1 %}
-  <nav class="pagination" aria-label="Page navigation">
-    <ul class="pagination">
-      {% if paginator.previous_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.previous_page.url | relative_url }}" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% for page in (1..paginator.total_pages) %}
-        <li class="page-item{% if page == paginator.page %} active{% endif %}">
-          <a class="page-link" href="{{ paginator.previous_page.url | relative_url }}">{{ page }}</a>
-        </li>
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.next_page.url | relative_url }}" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-      {% endif %}
-    </ul>
-  </nav>
+  {% include post-paginator.html %}
 {% endif %}

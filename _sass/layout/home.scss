@@ -87,7 +87,6 @@
   color: var(--text-color);
   font-family: Lato, sans-serif;
   justify-content: space-evenly;
-  display: flex; /* Flexbox 사용으로 정렬 */
 
   a:hover {
     text-decoration: none;
@@ -96,31 +95,25 @@
   .page-item {
     .page-link {
       color: var(--btn-patinator-text-color);
-      padding: 0.5rem 1rem; /* 여백 조정 */
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 0 0.6rem;
+      display: -webkit-box;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
       border-radius: 0.5rem;
       border: 0;
       background-color: inherit;
-      transition: background-color 0.3s; /* 부드러운 효과 추가 */
-
-      &:hover {
-        background-color: var(--btn-paginator-hover-color); /* 호버 시 배경 색상 변경 */
-      }
     }
 
     &.active {
       .page-link {
-        background-color: var(--btn-paginator-hover-color); /* 활성화된 페이지의 배경 색상 */
-        color: #fff; /* 활성화된 페이지의 텍스트 색상 */
+        background-color: var(--btn-paginator-hover-color);
       }
     }
 
     &:not(.active) {
       .page-link {
         &:hover {
-          box-shadow: inset var(--btn-border-color) 0 0 0 1px; /* 호버 시 그림자 효과 */
+          box-shadow: inset var(--btn-border-color) 0 0 0 1px;
         }
       }
     }
