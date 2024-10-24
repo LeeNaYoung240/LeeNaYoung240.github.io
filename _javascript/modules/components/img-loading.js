@@ -15,15 +15,9 @@ function removeCover(clzss) {
 }
 
 function handleImage() {
-  if (!this.complete) {
-    return;
-  }
-
-  if (this.hasAttribute(ATTR_DATA_LQIP)) {
-    removeCover.call(this, cover.BLUR);
-  } else {
-    removeCover.call(this, cover.SHIMMER);
-  }
+  // 블러와 시머를 모두 제거합니다.
+  removeCover.call(this, cover.BLUR);
+  removeCover.call(this, cover.SHIMMER);
 }
 
 /**

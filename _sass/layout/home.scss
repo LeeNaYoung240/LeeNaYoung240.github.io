@@ -87,8 +87,6 @@
   color: var(--text-color);
   font-family: Lato, sans-serif;
   justify-content: space-evenly;
-  display: flex;
-  padding-top: 1rem;
 
   a:hover {
     text-decoration: none;
@@ -96,24 +94,26 @@
 
   .page-item {
     .page-link {
-      color: var(--btn-paginator-text-color);
-      padding: 0.5rem 0.75rem;
+      color: var(--btn-patinator-text-color);
+      padding: 0 0.6rem;
+      display: -webkit-box;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
       border-radius: 0.5rem;
-      border: 1px solid var(--btn-border-color);
-      background-color: var(--btn-background-color);
+      border: 0;
+      background-color: inherit;
     }
 
     &.active {
       .page-link {
         background-color: var(--btn-paginator-hover-color);
-        color: var(--btn-active-text-color);
       }
     }
 
     &:not(.active) {
       .page-link {
         &:hover {
-          background-color: var(--btn-hover-background-color);
+          box-shadow: inset var(--btn-border-color) 0 0 0 1px;
         }
       }
     }
