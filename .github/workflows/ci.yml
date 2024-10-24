@@ -42,5 +42,5 @@ jobs:
         run: npm i && npm run build
         timeout-minutes: 10
 
-  #    - name: Test Site
-  #      run: bash $GITHUB_WORKSPACE/tools/test.sh
+      - name: Test Site
+        run: bash $GITHUB_WORKSPACE/tools/test.sh

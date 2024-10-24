@@ -120,13 +120,13 @@ pwa:
   enabled: true # the option for PWA feature
 
 gems:
-  - jekyll-pagination
+  - jekyll-paginate
 
 paginate: 10
 paginate_path: "/page:num/"
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/LeeNaYoung240.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
