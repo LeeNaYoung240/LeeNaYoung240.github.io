@@ -1,16 +1,21 @@
 ---
-layout: home
+layout: dafault
 # Index page
 ---
 
-"{"% for post in paginator.posts %"}"
-<article class="post">
-  <div class="post-content">
-    <h2 class="post-title"><a href=""></a></h2>
-    <p></p>
-    <span class="post-date">&nbsp;&nbsp;&nbsp;</span>
-  </div>
-</article>
-"{"% endfor %"}"
-# pagination 알고리즘 구현한 html 파일
-"{"% include pagination.html %"}"
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
