@@ -24,7 +24,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'jekyll-sitemap'
 
-group :jekyll_plugins do
-  
-  gem "jekyll-paginate"
-end
