@@ -506,7 +506,7 @@ main {
   display: inline-flex;
 }
 
-.shimmer {
+/*.shimmer {
   overflow: hidden;
   position: relative;
   background: var(--img-bg);
@@ -521,6 +521,7 @@ main {
     animation: shimmer 1.3s infinite;
   }
 
+  
   @-webkit-keyframes shimmer {
     0% {
       transform: translateX(-100%);
@@ -540,7 +541,7 @@ main {
       transform: translateX(100%);
     }
   }
-}
+}*/
 
 .embed-video {
   width: 100%;
