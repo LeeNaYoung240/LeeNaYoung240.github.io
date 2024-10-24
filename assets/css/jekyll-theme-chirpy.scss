@@ -1,9 +1,7 @@
----
----
+@use 'main';
 
-@import 'main
 {%- if jekyll.environment == 'production' -%}
-  .bundle
+  .bundle {
+    // 추가 스타일
+  }
 {%- endif -%}
-';
-/* append your custom style below */

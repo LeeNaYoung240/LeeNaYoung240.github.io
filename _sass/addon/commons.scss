@@ -32,7 +32,7 @@ body {
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: $font-family-base;
+  font-family: main.$font-family-base;
 }
 
 /* --- Typography --- */
@@ -131,7 +131,7 @@ kbd {
 
 footer {
   background-color: var(--main-bg);
-  height: $footer-height;
+  height: main.$footer-height;
   border-top: 1px solid var(--main-border-color);
 
   @extend %text-xs;
@@ -687,7 +687,7 @@ $btn-mb: 0.5rem;
   left: 0;
   height: 100%;
   overflow-y: auto;
-  width: $sidebar-width;
+  width: main.$sidebar-width;
   z-index: 99;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
@@ -851,7 +851,7 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
 
       &:not(:last-child) {
-        margin-right: $sb-btn-gap;
+        margin-right: main.$sb-btn-gap;
       }
     }
 
@@ -870,7 +870,7 @@ $btn-mb: 0.5rem;
 
     .icon-border {
       @extend %no-cursor;
-      @include ml-mr(calc(($sb-btn-gap - $btn-border-width) / 2));
+      @include ml-mr(calc((main.$sb-btn-gap - $btn-border-width) / 2));
 
       background-color: var(--sidebar-btn-color);
       content: '';
@@ -910,7 +910,7 @@ $btn-mb: 0.5rem;
 /* --- top-bar --- */
 
 #topbar-wrapper {
-  height: $topbar-height;
+  height: main.$topbar-height;
   background-color: var(--topbar-bg);
 }
 
@@ -1146,12 +1146,12 @@ search {
   cursor: pointer;
   position: fixed;
   right: 1rem;
-  bottom: calc($footer-height-large - $back2top-size / 2);
+  bottom: calc(main.$footer-height-large - main.$back2top-size / 2);
   background: var(--button-bg);
   color: var(--btn-backtotop-color);
   padding: 0;
-  width: $back2top-size;
-  height: $back2top-size;
+  width: main.$back2top-size;
+  height: main.$back2top-size;
   border-radius: 50%;
   border: 1px solid var(--btn-backtotop-border-color);
   transition: transform 0.2s ease-out;
@@ -1163,7 +1163,7 @@ search {
   }
 
   i {
-    line-height: $back2top-size;
+    line-height: main.$back2top-size;
     position: relative;
     bottom: 2px;
   }
@@ -1276,7 +1276,7 @@ search {
   footer {
     @include slide;
 
-    height: $footer-height-large;
+    height: main.$footer-height-large;
     padding: 1.5rem 0;
   }
 
@@ -1286,7 +1286,7 @@ search {
     }
 
     #main-wrapper {
-      transform: translateX($sidebar-width);
+      transform: translateX(main.$sidebar-width);
     }
 
     #back-to-top {
@@ -1297,8 +1297,8 @@ search {
   #sidebar {
     @include slide;
 
-    transform: translateX(-$sidebar-width); /* hide */
-    -webkit-transform: translateX(-$sidebar-width);
+    transform: translateX(-main.$sidebar-width); /* hide */
+    -webkit-transform: translateX(-main.$sidebar-width);
   }
 
   #main-wrapper {
@@ -1361,7 +1361,7 @@ search {
   }
 
   #main-wrapper {
-    margin-left: $sidebar-width;
+    margin-left: main.$sidebar-width;
   }
 
   #sidebar {
@@ -1396,7 +1396,7 @@ search {
   /* button 'back-to-Top' position */
   #back-to-top {
     right: 5%;
-    bottom: calc($footer-height - $back2top-size / 2);
+    bottom: calc(main.$footer-height - main.$back2top-size / 2);
   }
 
   #topbar-title {
@@ -1473,7 +1473,7 @@ search {
 
 @media all and (min-width: 1400px) {
   #back-to-top {
-    right: calc((100vw - $sidebar-width - 1140px) / 2 + 3rem);
+    right: calc((100vw - main.$sidebar-width - 1140px) / 2 + 3rem);
   }
 }
 
@@ -1481,11 +1481,11 @@ search {
   $icon-gap: 1rem;
 
   #main-wrapper {
-    margin-left: $sidebar-width-large;
+    margin-left: main.$sidebar-width-large;
   }
 
   #topbar-wrapper {
-    left: $sidebar-width-large;
+    left: main.$sidebar-width-large;
   }
 
   search {
@@ -1507,12 +1507,12 @@ search {
 
   #back-to-top {
     right: calc(
-      (100vw - $sidebar-width-large - $main-content-max-width) / 2 + 2rem
+      (100vw - main.$sidebar-width-large - main.$main-content-max-width) / 2 + 2rem
     );
   }
 
   #sidebar {
-    width: $sidebar-width-large;
+    width: main.$sidebar-width-large;
 
     .profile-wrapper {
       margin-top: 3.5rem;
@@ -1531,11 +1531,11 @@ search {
       margin-bottom: 1.75rem;
 
       a:not(:last-child) {
-        margin-right: $sb-btn-gap-lg;
+        margin-right: main.$sb-btn-gap-lg;
       }
 
       .icon-border {
-        @include ml-mr(calc(($sb-btn-gap-lg - $btn-border-width) / 2));
+        @include ml-mr(calc((main.$sb-btn-gap-lg - $btn-border-width) / 2));
       }
     }
   }

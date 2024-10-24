@@ -19,8 +19,8 @@
 {% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
 
 <script>
-  /* Note: dependent library will be loaded in `js-selector.html` */
-  SimpleJekyllSearch({
+  {%- comment -%} Not  /* Note: dependent library will be loaded in `js-selector.html` */
+
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
     json: '{{ '/assets/js/data/search.json' | relative_url }}',
