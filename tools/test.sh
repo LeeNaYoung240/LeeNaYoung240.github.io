@@ -26,7 +26,6 @@ help() {
   echo "     -h, --help               Print this information."
 }
 
-
 read_baseurl() {
   if [[ $_config == *","* ]]; then
     # multiple config
