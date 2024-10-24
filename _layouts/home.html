@@ -5,8 +5,8 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+{% assign pinned = paginator.posts | where: 'pin', 'true' %}
+{% assign default = paginator.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
 {% assign posts = '' | split: '' %}
 
@@ -41,7 +41,7 @@ refactor: true
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %} <!-- site.posts 대신 paginator.posts 사용 -->
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
@@ -80,11 +80,9 @@ refactor: true
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
               <div class="me-auto">
-                <!-- posted date -->
                 <i class="far fa-calendar fa-fw me-1"></i>
                 {% include datetime.html date=post.date lang=lang %}
 
-                <!-- categories -->
                 {% if post.categories.size > 0 %}
                   <i class="far fa-folder-open fa-fw me-1"></i>
                   <span class="categories">
@@ -103,16 +101,31 @@ refactor: true
                 </div>
               {% endif %}
             </div>
-            <!-- .post-meta -->
           </div>
-          <!-- .card-body -->
         </div>
       </a>
     </article>
   {% endfor %}
 </div>
-<!-- #post-list -->
 
 {% if paginator.total_pages > 1 %}
-  {% include post-paginator.html %}
+  <nav class="pagination">
+    <ul class="pagination">
+      {% if paginator.previous_page %}
+        <li class="page-item">
+          <a href="{{ paginator.previous_page_path | relative_url }}" class="page-link">이전</a>
+        </li>
+      {% endif %}
+
+      <li class="page-item active">
+        <span class="page-link">{{ paginator.page }}</span>
+      </li>
+
+      {% if paginator.next_page %}
+        <li class="page-item">
+          <a href="{{ paginator.next_page_path | relative_url }}" class="page-link">다음</a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
 {% endif %}
