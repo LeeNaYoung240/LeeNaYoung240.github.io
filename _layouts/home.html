@@ -11,7 +11,6 @@ refactor: true
 {% assign posts = '' | split: '' %}
 
 <!-- Get pinned posts -->
-
 {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
 {% assign pinned_num = pinned.size | minus: offset %}
 
@@ -24,7 +23,6 @@ refactor: true
 {% endif %}
 
 <!-- Get default posts -->
-
 {% assign default_beg = offset | minus: pinned.size %}
 
 {% if default_beg < 0 %}
@@ -41,7 +39,7 @@ refactor: true
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in site.posts %}
+  {% for post in posts %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
@@ -80,11 +78,9 @@ refactor: true
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
               <div class="me-auto">
-                <!-- posted date -->
                 <i class="far fa-calendar fa-fw me-1"></i>
                 {% include datetime.html date=post.date lang=lang %}
 
-                <!-- categories -->
                 {% if post.categories.size > 0 %}
                   <i class="far fa-folder-open fa-fw me-1"></i>
                   <span class="categories">
@@ -103,16 +99,14 @@ refactor: true
                 </div>
               {% endif %}
             </div>
-            <!-- .post-meta -->
           </div>
-          <!-- .card-body -->
         </div>
       </a>
     </article>
   {% endfor %}
 </div>
-<!-- #post-list -->
 
-{% if paginator.total_pages >  %}
+<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}
