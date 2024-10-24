@@ -2,3 +2,15 @@
 layout: home
 # Index page
 ---
+
+"{"% for post in paginator.posts %"}"
+<article class="post">
+  <div class="post-content">
+    <h2 class="post-title"><a href=""></a></h2>
+    <p></p>
+    <span class="post-date">&nbsp;&nbsp;&nbsp;</span>
+  </div>
+</article>
+"{"% endfor %"}"
+# pagination 알고리즘 구현한 html 파일
+"{"% include pagination.html %"}"
