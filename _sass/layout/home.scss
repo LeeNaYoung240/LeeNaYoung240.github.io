@@ -1,6 +1,55 @@
 /*
   Style for Homepage
 */
+.pagination {
+  color: var(--btn-patinator-text-color);
+  font-family: Lato, sans-serif;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .page-item {
+    .page-link {
+      color: inherit;
+      width: 2.5rem;
+      height: 2.5rem;
+      padding: 0;
+      display: -webkit-box;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      border-radius: 50%;
+      border: 1px solid var(--btn-paginator-border-color);
+      background-color: var(--button-bg);
+
+      &:hover {
+        background-color: var(--btn-paginator-hover-color);
+      }
+    }
+
+    &.active {
+      .page-link {
+        background-color: var(--btn-paginator-hover-color);
+        color: var(--btn-text-color);
+      }
+    }
+
+    &.disabled {
+      cursor: not-allowed;
+
+      .page-link {
+        color: rgba(108, 117, 125, 0.57);
+        border-color: var(--btn-paginator-border-color);
+        background-color: var(--button-bg);
+      }
+    }
+
+    &:first-child .page-link,
+    &:last-child .page-link {
+      border-radius: 50%;
+    }
+  } /* .page-item */
+} /* .pagination */
 
 #post-list {
   margin-top: 2rem;
@@ -83,6 +132,7 @@
   }
 } /* #post-list */
 
+/*
 .pagination {
   color: var(--text-color);
   font-family: Lato, sans-serif;
@@ -126,7 +176,7 @@
       }
     }
   } /* .page-item */
-} /* .pagination */
+//} /* .pagination */
 
 /* Tablet */
 @media all and (min-width: 768px) {
