@@ -1,4 +1,13 @@
-<!-- The paginator for post list on HomgPage. -->
+<!-- 페이지네이션을 위한 설정 -->
+{% assign all_posts = site.posts | where_exp: 'item', 'item.hidden != true' %}
+{% assign total_posts = all_posts.size %}
+{% assign per_page = paginator.per_page | default: 10 %}
+{% assign total_pages = total_posts | divided_by: per_page %}
+{% assign total_pages = total_pages | ceil %}
+{% assign offset = paginator.page | minus: 1 | times: per_page %}
+
+<!-- 현재 페이지에 표시할 게시글을 설정 -->
+{% assign posts = all_posts | slice: offset, per_page %}
 
 <nav aria-label="Page Navigation">
   <ul class="pagination align-items-center mt-4 mb-0">
@@ -9,30 +18,30 @@
         <i class="fas fa-angle-left"></i>
       </a>
     </li>
-  
+
     <!-- page numbers -->
     {% assign left_ellipsis = false %}
     {% assign right_ellipsis = false %}
-  
-    {% for i in (1..paginator.total_pages) %}
+
+    {% for i in (1..total_pages) %}
       {% assign show = false %}
-  
+
       {% if paginator.page == 1 %}
-        {% if i <= 3 or i == paginator.total_pages %}
+        {% if i <= 3 or i == total_pages %}
           {% assign show = true %}
         {% endif %}
-      {% elsif paginator.page == paginator.total_pages %}
-        {% if i == 1 or i >= paginator.total_pages | minus: 2 %}
+      {% elsif paginator.page == total_pages %}
+        {% if i == 1 or i >= total_pages | minus: 2 %}
           {% assign show = true %}
         {% endif %}
       {% else %}
-        {% if i == 1 or i == paginator.total_pages %}
+        {% if i == 1 or i == total_pages %}
           {% assign show = true %}
         {% elsif i >= paginator.page | minus: 1 and i <= paginator.page | plus: 1 %}
           {% assign show = true %}
         {% endif %}
       {% endif %}
-  
+
       {% if show %}
         <li class="page-item {% if i == paginator.page %}active{% endif %}">
           <a class="page-link" href="{{ site.paginate_path | replace: ':num', i | relative_url }}">
@@ -53,13 +62,13 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-  
+
     <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>{{ paginator.page }}</span>
-      <span class="text-muted">/ {{ paginator.total_pages }}</span>
+      <span class="text-muted">/ {{ total_pages }}</span>
     </li>
-  
+
     <!-- right arrow -->
     {% assign next_url = paginator.next_page_path | relative_url %}
     <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
