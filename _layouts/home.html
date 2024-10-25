@@ -5,40 +5,17 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+<!-- 모든 게시글 가져오기 (숨김 처리된 게시글 제외) -->
+{% assign all_posts = site.posts | where_exp: 'item', 'item.hidden != true' %}
 
-{% assign posts = '' | split: '' %}
-
-<!-- Get pinned posts -->
-
+<!-- 페이지네이션을 위한 설정 -->
+{% assign total_posts = all_posts.size %}
+{% assign total_pages = total_posts | divided_by: paginator.per_page %}
+{% assign total_pages = total_pages | ceil %}
 {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
-{% assign pinned_num = pinned.size | minus: offset %}
 
-{% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign posts = posts | push: pinned[i] %}
-  {% endfor %}
-{% else %}
-  {% assign pinned_num = 0 %}
-{% endif %}
-
-<!-- Get default posts -->
-
-{% assign default_beg = offset | minus: pinned.size %}
-
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
-{% endif %}
-
-{% assign default_num = paginator.posts | size | minus: pinned_num %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
-  {% endfor %}
-{% endif %}
+<!-- 현재 페이지에 표시할 게시글을 설정 -->
+{% assign posts = all_posts | slice: offset, paginator.per_page %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
@@ -53,7 +30,6 @@ refactor: true
           {% endunless %}
 
           {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
-
           {% assign lqip = null %}
 
           {% if post.image.lqip %}
@@ -113,6 +89,6 @@ refactor: true
 </div>
 <!-- #post-list -->
 
-{% if paginator.total_pages > 1 %}
+{% if total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}
