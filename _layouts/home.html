@@ -5,11 +5,8 @@ refactor: true
 
 {% include lang.html %}
 
-<!-- 모든 게시글 가져오기 (숨김 처리된 게시글 제외) -->
-{% assign all_posts = site.posts | where_exp: 'item', 'item.hidden != true' %}
-
 <!-- 페이지네이션을 위한 설정 -->
-{% assign total_posts = all_posts.size %}
+{% assign total_posts = site.posts | where_exp: 'item', 'item.hidden != true' | size %}
 
 <!-- 게시글이 하나도 없을 경우를 처리 -->
 {% if total_posts > 0 %}
@@ -19,7 +16,7 @@ refactor: true
   {% assign offset = paginator.page | minus: 1 | times: per_page %}
 
   <!-- 현재 페이지에 표시할 게시글을 설정 -->
-  {% assign posts = all_posts | slice: offset, per_page %}
+  {% assign posts = site.posts | where_exp: 'item', 'item.hidden != true' | slice: offset, per_page %}
 {% else %}
   {% assign total_pages = 1 %}
   {% assign posts = '' | split: '' %} <!-- 빈 배열로 초기화 -->

@@ -1,13 +1,4 @@
-<!-- 페이지네이션을 위한 설정 -->
-{% assign all_posts = site.posts | where_exp: 'item', 'item.hidden != true' %}
-{% assign total_posts = all_posts.size %}
-{% assign per_page = paginator.per_page | default: 10 %}
-{% assign total_pages = total_posts | divided_by: per_page %}
-{% assign total_pages = total_pages | ceil %}
-{% assign offset = paginator.page | minus: 1 | times: per_page %}
-
-<!-- 현재 페이지에 표시할 게시글을 설정 -->
-{% assign posts = all_posts | slice: offset, per_page %}
+<!-- The paginator for post list on HomePage. -->
 
 <nav aria-label="Page Navigation">
   <ul class="pagination align-items-center mt-4 mb-0">
@@ -18,14 +9,20 @@
         <i class="fas fa-angle-left"></i>
       </a>
     </li>
-
+  
     <!-- page numbers -->
     {% assign left_ellipsis = false %}
     {% assign right_ellipsis = false %}
-
+  
+    <!-- 총 게시글 수 계산 -->
+    {% assign total_posts = site.posts | where_exp: 'item', 'item.hidden != true' | size %}
+    {% assign per_page = paginator.per_page | default: 10 %}
+    {% assign total_pages = total_posts | divided_by: per_page %}
+    {% assign total_pages = total_pages | ceil %}
+  
     {% for i in (1..total_pages) %}
       {% assign show = false %}
-
+  
       {% if paginator.page == 1 %}
         {% if i <= 3 or i == total_pages %}
           {% assign show = true %}
@@ -41,7 +38,7 @@
           {% assign show = true %}
         {% endif %}
       {% endif %}
-
+  
       {% if show %}
         <li class="page-item {% if i == paginator.page %}active{% endif %}">
           <a class="page-link" href="{{ site.paginate_path | replace: ':num', i | relative_url }}">
@@ -62,13 +59,13 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
+  
     <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>{{ paginator.page }}</span>
       <span class="text-muted">/ {{ total_pages }}</span>
     </li>
-
+  
     <!-- right arrow -->
     {% assign next_url = paginator.next_page_path | relative_url %}
     <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
