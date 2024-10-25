@@ -4,6 +4,9 @@ author: The journey is the reward
 date:   2024-02-29 16:27:02 +09:00
 categories: [GitHub Blog]
 tags: [GitHub Blog]
+pin: true
+math: true
+mermaid: true
 ---
 
 
