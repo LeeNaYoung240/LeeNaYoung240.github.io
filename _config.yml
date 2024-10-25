@@ -122,8 +122,8 @@ pwa:
 gems:
   - jekyll-pagination
 
-paginate: 10
-paginate_path: '/page:num/'
+paginate: 10 # 페이지당 표시할 게시물 수
+paginate_path: "/page:num/"
 
 
 # The base URL of your site
