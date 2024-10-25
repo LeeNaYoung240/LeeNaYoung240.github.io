@@ -75,7 +75,7 @@
         > div:first-child {
           display: block;
 
-          @extend %text-ellipsis;
+          @extend %text-ellipsis !optional;
         }
       }
     }
