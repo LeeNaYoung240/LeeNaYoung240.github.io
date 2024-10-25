@@ -123,7 +123,6 @@ gems:
   - jekyll-pagination
 
 paginate: 10
-paginate_path: "/page:num/"
 
 # The base URL of your site
 baseurl: ""
@@ -171,10 +170,7 @@ defaults:
       path: assets/img/favicons
     values:
       swcache: true
-  - scope:
-      path: assets/js/dist
-    values:
-      swcache: true
+ 
 
 sass:
   style: compressed
@@ -206,6 +202,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    
 sitemap:
   changefreq: weekly
   priority: 0.5
