@@ -8,13 +8,31 @@ permalink: /about/
 ---
 
 
-<a  href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/1151cf89-24f0-411d-9e5c-4398d509d6aa"  class="popup img-link"><img  src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/1151cf89-24f0-411d-9e5c-4398d509d6aa"  alt="1"  loading="lazy"></a>  
+# About me
 
-안녕하세요. 백엔드 개발자를 목표로 하고 있습니다 🤸🏻‍♀️
+## Introduce.
+안녕하세요.<br>
 
-틀에 박히지 않은 블로그로 기록하고자 Github Page 블로그를 시작했습니다.
+<b>Java </b>, <b>꾸미기</b>와 <b>도전하는 것</b>을 좋아하는 백엔드 개발자 입니다.🤸🏻‍♀️ 
 
-가끔 들려주세요 ✨
 
-> https://github.com/LeeNaYoung240 💞
-{: .prompt-tip }
+틀에 박히지 않은 블로그로 기록하고자 <a href="https://LeeNayoung240.github.io">개발 블로그</a> 를 운영 하고 있습니다. 💕
+
+
+---
+
+## Project.
+
+🛫 DETOUR - 여행 일정 관리 및 공유 사이트️ <a href="https://github.com/LeeNaYoung240/detour">💁🏻‍♀️ Github</a><br>
+
+ 💻 CODE3LINE - 매일 하루에 코드 세 줄 정리를 도전하는 서버 <a href="https://github.com/LeeNaYoung240/code3linePlus">💁🏻‍♀️  Github</a><br>
+
+
+---
+
+## Study.
+
+💛 알고리즘 문제 풀이 연습 <a href="https://github.com/LeeNaYoung240/Algorithm">💁🏻‍♀️ Github</a><br>
+
+
+
