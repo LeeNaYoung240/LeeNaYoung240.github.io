@@ -8,17 +8,7 @@
   color: var(--heading-color);
   font-weight: 400;
   font-family: $font-family-heading;
-}
-
-%section {
-  main & {
-    margin-top: 2.5rem;
-    margin-bottom: 1.25rem;
-
-    &:focus {
-      outline: none; /* avoid outline in Safari */
-    }
-  }
+  scroll-margin-top: 3.5rem;
 }
 
 %anchor {
@@ -92,7 +82,7 @@
 }
 
 %rounded {
-  border-radius: $base-radius;
+  border-radius: $radius-lg;
 }
 
 %img-caption {
@@ -122,8 +112,18 @@
   -webkit-box-orient: vertical;
 }
 
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+%text-ellipsis {
+  @include text-ellipsis;
+}
+
 %text-highlight {
-  color: var(--text-muted-hightlight-color);
+  color: var(--text-muted-highlight-color);
   font-weight: 600;
 }
 
@@ -145,6 +145,12 @@
   }
 }
 
+%btn-color {
+  button i {
+    color: #999999;
+  }
+}
+
 /* ---------- scss mixin --------- */
 
 @mixin mt-mb($value) {
@@ -162,9 +168,14 @@
   padding-bottom: $val;
 }
 
-@mixin pl-pr($val) {
-  padding-left: $val;
-  padding-right: $val;
+@mixin pl-pr($val, $important: false) {
+  @if $important {
+    padding-left: $val !important;
+    padding-right: $val !important;
+  } @else {
+    padding-left: $val;
+    padding-right: $val;
+  }
 }
 
 @mixin placeholder {
@@ -187,7 +198,7 @@
   transform: translateX(-50%);
 }
 
-@mixin prompt($type, $fa-content, $fa-style: 'solid') {
+@mixin prompt($type, $fa-content, $fa-style: 'solid', $rotate: 0) {
   &.prompt-#{$type} {
     background-color: var(--prompt-#{$type}-bg);
 
@@ -195,6 +206,10 @@
       content: $fa-content;
       color: var(--prompt-#{$type}-icon-color);
       font: var(--fa-font-#{$fa-style});
+
+      @if $rotate != 0 {
+        transform: rotate(#{$rotate}deg);
+      }
     }
   }
 }

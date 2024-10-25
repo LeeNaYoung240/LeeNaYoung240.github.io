@@ -5,25 +5,16 @@
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
       {%- if site.avatar != empty and site.avatar -%}
         {%- capture avatar_url -%}
-          {% include img-url.html src=site.avatar %}
+          {% include media-url.html src=site.avatar %}
         {%- endcapture -%}
         <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
       {%- endif -%}
     </a>
 
-    <h1 class="site-title">
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    </h1>
+    <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
   <!-- .profile-wrapper -->
-
-  <div style="display: flex; justify-content: center;">
-    <a href="https://hits.seeyoufarm.com">
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleenayoung240.github.io&count_bg=%23FFD8EA&title_bg=%23DFC8FF&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hit counter badge"/>
-    </a>
-  </div>
-  
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
@@ -51,7 +42,7 @@
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     {% unless site.theme_mode %}
-      <button type="button" class="mode-toggle btn" aria-label="Switch Mode">
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
         <i class="fas fa-adjust"></i>
       </button>
 
