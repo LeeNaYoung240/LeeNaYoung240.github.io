@@ -9,7 +9,12 @@ permalink: /about/
 
 
 ## Introduce.
+
+<a  href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/d7762d25-1b9b-402f-83c9-35e2ee86697e"  class="popup img-link"><img  src="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/d7762d25-1b9b-402f-83c9-35e2ee86697e"  alt="1"  loading="lazy"></a> 
+
+
 안녕하세요.<br>
+
 
 <b>Java </b>, <b>꾸미기</b>와 <b>도전하는 것</b>을 좋아하는 백엔드 개발자 입니다.🤸🏻‍♀️ 
 
