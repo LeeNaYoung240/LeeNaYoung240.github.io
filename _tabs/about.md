@@ -1,14 +1,12 @@
 ---
 published: true
 layout: page
-title: 💌💦
+title: About me 💌
 menu: true
 order: 10
 permalink: /about/
 ---
 
-
-# About me
 
 ## Introduce.
 안녕하세요.<br>
