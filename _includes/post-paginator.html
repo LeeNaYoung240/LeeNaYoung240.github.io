@@ -1,69 +1,72 @@
-<!-- The paginator for post list on HomePage. -->
-<ul class="pagination align-items-center mt-4 mb-0">
-  <!-- left arrow -->
-  {% assign prev_url = paginator.previous_page ? paginator.previous_page_path | relative_url : '#' %}
-  <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
-    <a class="page-link" href="{{ prev_url }}" aria-label="previous-page">
-      <i class="fas fa-angle-left"></i>
-    </a>
-  </li>
+<!-- The paginator for post list on HomgPage. -->
 
-  <!-- page numbers -->
-  {% assign left_ellipsis = false %}
-  {% assign right_ellipsis = false %}
-
-  {% for i in (1..paginator.total_pages) %}
-    {% assign show = false %}
-
-    {% if paginator.page == 1 %}
-      {% if i <= 3 or i == paginator.total_pages %}
-        {% assign show = true %}
+<nav aria-label="Page Navigation">
+  <ul class="pagination align-items-center mt-4 mb-0">
+    <!-- left arrow -->
+    {% assign prev_url = paginator.previous_page_path | relative_url %}
+    <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
+      <a class="page-link" href="{% if paginator.previous_page %}{{ prev_url }}{% else %}#{% endif %}" aria-label="previous-page">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
+  
+    <!-- page numbers -->
+    {% assign left_ellipsis = false %}
+    {% assign right_ellipsis = false %}
+  
+    {% for i in (1..paginator.total_pages) %}
+      {% assign show = false %}
+  
+      {% if paginator.page == 1 %}
+        {% if i <= 3 or i == paginator.total_pages %}
+          {% assign show = true %}
+        {% endif %}
+      {% elsif paginator.page == paginator.total_pages %}
+        {% if i == 1 or i >= paginator.total_pages | minus: 2 %}
+          {% assign show = true %}
+        {% endif %}
+      {% else %}
+        {% if i == 1 or i == paginator.total_pages %}
+          {% assign show = true %}
+        {% elsif i >= paginator.page | minus: 1 and i <= paginator.page | plus: 1 %}
+          {% assign show = true %}
+        {% endif %}
       {% endif %}
-    {% elsif paginator.page == paginator.total_pages %}
-      {% if i == 1 or i >= paginator.total_pages | minus: 2 %}
-        {% assign show = true %}
-      {% endif %}
-    {% else %}
-      {% if i == 1 or i == paginator.total_pages %}
-        {% assign show = true %}
-      {% elsif i >= paginator.page | minus: 1 and i <= paginator.page | plus: 1 %}
-        {% assign show = true %}
-      {% endif %}
-    {% endif %}
-
-    {% if show %}
-      <li class="page-item {% if i == paginator.page %}active{% endif %}">
-        <a class="page-link" href="{{ site.paginate_path | replace: ':num', i | relative_url }}">
-          {{- i -}}
-        </a>
-      </li>
-    {% else %}
-      {% if i < paginator.page and left_ellipsis == false %}
-        <li class="page-item disabled">
-          <span class="page-link">...</span>
+  
+      {% if show %}
+        <li class="page-item {% if i == paginator.page %}active{% endif %}">
+          <a class="page-link" href="{{ site.paginate_path | replace: ':num', i | relative_url }}">
+            {{- i -}}
+          </a>
         </li>
-        {% assign left_ellipsis = true %}
-      {% elsif i > paginator.page and right_ellipsis == false %}
-        <li class="page-item disabled">
-          <span class="page-link">...</span>
-        </li>
-        {% assign right_ellipsis = true %}
+      {% else %}
+        {% if i < paginator.page and left_ellipsis == false %}
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+          {% assign left_ellipsis = true %}
+        {% elsif i > paginator.page and right_ellipsis == false %}
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+          {% assign right_ellipsis = true %}
+        {% endif %}
       {% endif %}
-    {% endif %}
-  {% endfor %}
-
-  <!-- mobile pagination -->
-  <li class="page-index align-middle">
-    <span>{{ paginator.page }}</span>
-    <span class="text-muted">/ {{ paginator.total_pages }}</span>
-  </li>
-
-  <!-- right arrow -->
-  {% assign next_url = paginator.next_page ? paginator.next_page_path | relative_url : '#' %}
-  <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
-    <a class="page-link" href="{{ next_url }}" aria-label="next-page">
-      <i class="fas fa-angle-right"></i>
-    </a>
-  </li>
-</ul>
+    {% endfor %}
+  
+    <!-- mobile pagination -->
+    <li class="page-index align-middle">
+      <span>{{ paginator.page }}</span>
+      <span class="text-muted">/ {{ paginator.total_pages }}</span>
+    </li>
+  
+    <!-- right arrow -->
+    {% assign next_url = paginator.next_page_path | relative_url %}
+    <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
+      <a class="page-link" href="{% if paginator.next_page %}{{ next_url }}{% else %}#{% endif %}" aria-label="next-page">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
 <!-- .pagination -->
