@@ -13,12 +13,13 @@ refactor: true
 
 <!-- 게시글이 하나도 없을 경우를 처리 -->
 {% if total_posts > 0 %}
-  {% assign total_pages = total_posts | divided_by: paginator.per_page %}
+  {% assign per_page = paginator.per_page | default: 10 %}  <!-- 페이지당 게시글 수를 기본값으로 설정 -->
+  {% assign total_pages = total_posts | divided_by: per_page %}
   {% assign total_pages = total_pages | ceil %}
-  {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
+  {% assign offset = paginator.page | minus: 1 | times: per_page %}
 
   <!-- 현재 페이지에 표시할 게시글을 설정 -->
-  {% assign posts = all_posts | slice: offset, paginator.per_page %}
+  {% assign posts = all_posts | slice: offset, per_page %}
 {% else %}
   {% assign total_pages = 1 %}
   {% assign posts = '' | split: '' %} <!-- 빈 배열로 초기화 -->
