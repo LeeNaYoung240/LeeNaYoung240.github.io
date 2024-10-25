@@ -1498,6 +1498,7 @@ search {
   #sidebar {
     width: $sidebar-width-large;
 
+   
     .profile-wrapper {
       margin-top: 3.5rem;
       margin-bottom: 2.5rem;
@@ -1522,5 +1523,10 @@ search {
         @include ml-mr(calc(($sb-btn-gap-lg - $btn-border-width) / 2));
       }
     }
+
+    background: url('/assets/img/22.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+
   }
 } /* min-width: 1650px */
