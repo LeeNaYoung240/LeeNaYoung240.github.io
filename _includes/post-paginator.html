@@ -40,26 +40,35 @@
       {% endif %}
   
       {% if show %}
+      <!-- First page link modification -->
+      {% if i == 1 %}
+        <li class="page-item {% if paginator.page == 1 %}active{% endif %}">
+          <a class="page-link" href="{{ '/' | relative_url }}">
+            {{- i -}}
+          </a>
+        </li>
+      {% else %}
         <li class="page-item {% if i == paginator.page %}active{% endif %}">
           <a class="page-link" href="{{ site.paginate_path | replace: ':num', i | relative_url }}">
             {{- i -}}
           </a>
         </li>
-      {% else %}
-        {% if i < paginator.page and left_ellipsis == false %}
-          <li class="page-item disabled">
-            <span class="page-link">...</span>
-          </li>
-          {% assign left_ellipsis = true %}
-        {% elsif i > paginator.page and right_ellipsis == false %}
-          <li class="page-item disabled">
-            <span class="page-link">...</span>
-          </li>
-          {% assign right_ellipsis = true %}
-        {% endif %}
       {% endif %}
-    {% endfor %}
-  
+    {% else %}
+      {% if i < paginator.page and left_ellipsis == false %}
+        <li class="page-item disabled">
+          <span class="page-link">...</span>
+        </li>
+        {% assign left_ellipsis = true %}
+      {% elsif i > paginator.page and right_ellipsis == false %}
+        <li class="page-item disabled">
+          <span class="page-link">...</span>
+        </li>
+        {% assign right_ellipsis = true %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
     <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>{{ paginator.page }}</span>
