@@ -16,11 +16,6 @@ tail_includes:
   <script src="{{ site.baseurl }}/assets/js/data/applause-button.js"></script>
 {% endif %}
 
-{% if page.applause_button %}
-  <link rel="stylesheet" href="https://unpkg.com/applause-button@4.0.1/dist/applause-button.css">
-  <script src="{{ site.baseurl }}/assets/js/data/applause-button.js"></script>
-{% endif %}
-
 {% include toc-status.html %}
 
 <article class="px-1" data-toc="{{ enable_toc }}">
@@ -136,12 +131,13 @@ tail_includes:
   </div>
 
   <div class="post-tail-wrapper text-muted">
-  {% if page.applause_button %}
-    <div class="applause-button">
-      <applause-button class="mb6" color={{ site.accent_color | default:'rgb(79,177,186)' }} url={{ page.url |
-        absolute_url }}>
-      </applause-button>
-    </div>
+    {% if page.applause_button %}
+      <div class="applause-button">
+        <applause-button class="mb6" color={{ site.accent_color | default:'rgb(79,177,186)' }} url={{ page.url | absolute_url }}>
+        </applause-button>
+      </div>
+    {% endif %}
+
     <!-- categories -->
     {% if page.categories.size > 0 %}
       <div class="post-meta mb-3">
