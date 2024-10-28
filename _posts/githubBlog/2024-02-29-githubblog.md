@@ -4,6 +4,8 @@ author: The journey is the reward
 date:   2024-02-29 16:27:02 +09:00
 categories: [GitHub Blog]
 tags: [GitHub Blog, Github, blog, github 블로그 만들기, 깃허브 블로그, 깃허브 블로그 만들기, min.js 오류, 이미지 반짝이는 오류, shimmer, 사이드 바]
+image:
+  path: /assets/img/post/maru.png
 pin: true
 math: true
 mermaid: true
