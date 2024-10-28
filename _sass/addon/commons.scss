@@ -1535,12 +1535,16 @@ search {
   }
 } /* min-width: 1650px */
 
+.px-md-3 {
+  font-size: 0.9rem;
+}
+
 // Applause button
 applause-button {
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   margin: 0 auto;
-  margin-top: 64px;
+  margin-bottom: 20px;
 
   .count-container {
     color: inherit;
