@@ -258,7 +258,8 @@ header {
 
     .toc-link {
       display: block;
-
+      white-space: nowrap;
+      overflow: hidden;
       @extend %text-ellipsis;
 
       &:hover {
