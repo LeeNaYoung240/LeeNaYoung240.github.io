@@ -1534,3 +1534,18 @@ search {
 
   }
 } /* min-width: 1650px */
+
+// Applause button
+applause-button {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+
+  .count-container {
+    color: inherit;
+  }
+}
+
+applause-button .style-root {
+  gap: 0rem !important;
+}
