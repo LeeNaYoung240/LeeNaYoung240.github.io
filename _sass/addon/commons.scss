@@ -124,7 +124,7 @@ blockquote {
 }
 
 kbd {
-  font-family: Lato, sans-serif;
+  font-family: Pretendard, inherit;
   display: inline-block;
   vertical-align: middle;
   line-height: 1.3rem;
@@ -689,6 +689,7 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   background: var(--sidebar-bg);
+  font-family: $font-family-base;
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -1082,7 +1083,7 @@ search {
   display: none;
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: Pretendard, sans-serif;
   color: var(--topbar-text-color);
   text-align: center;
   width: 70%;
@@ -1175,7 +1176,7 @@ search {
   }
 
   .toast-body {
-    font-family: Lato, sans-serif;
+    font-family: Pretendard, Lato, sans-serif;
     line-height: 1.25rem;
 
     button {
