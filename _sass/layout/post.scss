@@ -347,6 +347,18 @@ header {
   }
 }
 
+applause-button {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 64px;
+
+  .count-container {
+    color: inherit;
+  }
+}
+
+
 @mixin slide-out {
   0% {
     transform: translateY(0);

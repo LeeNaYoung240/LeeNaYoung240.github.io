@@ -1549,3 +1549,62 @@ applause-button {
 applause-button .style-root {
   gap: 0rem !important;
 }
+
+.clap-count {
+  font-size: 0.85rem !important;
+
+  svg {
+    height: 1em;
+    vertical-align: middle;
+    width: 1em;
+  }
+
+  .flat {
+    fill: rgb(79, 177, 186, 0);
+  }
+
+  .outline {
+    fill: var(--text-muted-color);
+  }
+}
+
+.clap-count-home {
+  color: var(--text-muted-color);
+  display: none;
+  margin-left: 1.75rem;
+  font-size: 0.85rem;
+
+  svg {
+    height: 1em;
+    vertical-align: middle;
+    width: 1em;
+  }
+
+  .flat {
+    fill: rgb(79, 177, 186, 0);
+  }
+
+  .outline {
+    fill: var(--text-muted-color);
+  }
+}
+
+.clap-count-cat {
+  color: var(--text-muted-color);
+  display: none;
+  margin-left: 0.5rem;
+
+  svg {
+    height: 1em;
+    vertical-align: middle;
+    width: 1em;
+  }
+
+  .flat {
+    fill: rgb(79, 177, 186, 0);
+  }
+
+  .outline {
+    fill: var(--text-muted-color);
+  }
+}
