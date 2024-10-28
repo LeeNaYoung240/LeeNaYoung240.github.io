@@ -10,11 +10,24 @@ permalink: /about/
 
 ## Introduce.
 
+<img src="https://LeeNaYoung240.github.io/assets/img/991.png" style="width: 150px; display: block; margin: auto;">
+
+
+<br>
+
+---
+
+
+-  이나영(LeeNaYoung)
+
+- ajd092710@gmail.com
+
+<br>
 
 안녕하세요.<br>
 
 
-<b>Java </b>, <b>꾸미기</b>와 <b>도전하는 것</b>을 좋아하는 백엔드 개발자 입니다.🤸🏻‍♀️ 
+<b>꾸미기</b>와 <b>도전하는 것</b>을 좋아하는 백엔드 개발자입니다.🤸🏻‍♀️ 
 
 
 틀에 박히지 않은 블로그로 기록하고자 <a href="https://LeeNayoung240.github.io">개발 블로그</a> 를 운영 하고 있습니다. 💕
