@@ -10,7 +10,7 @@ permalink: /about/
 
 ## Introduce.
 
-<img src="https://LeeNaYoung240.github.io/assets/img/991.png" alt="About me profile image" style="width: 150px; display: block; margin: auto;">
+<img src="https://LeeNaYoung240.github.io/assets/img/마루31.png" alt="About me profile image" style="width: 150px; display: block; margin: auto;">
 
 
 
