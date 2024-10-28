@@ -103,5 +103,8 @@
 <!-- #sidebar -->
 
 <script>
-  document.getElementById("hit-counter").src += Date.now();
+  document.addEventListener("DOMContentLoaded", function() {
+    const hitCounter = document.getElementById("hit-counter");
+    hitCounter.src = hitCounter.src + "&" + Date.now();
+  });
 </script>
