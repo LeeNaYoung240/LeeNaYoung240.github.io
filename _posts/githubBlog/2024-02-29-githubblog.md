@@ -507,6 +507,11 @@ NODE_ENV=production npx rollup -c --bundleConfigAsCjs
 
 - 다음과 같이 이미지 테두리 효과를 제거하였습니다.
 
+<br>
+
+# 12. 📌 오류
+
+[오류 정리](https://leenayoung240.github.io/posts/error/)
 
 
 궁금하신 부분이나 괜찮으셨다면 댓글 부탁드려요💨💨
