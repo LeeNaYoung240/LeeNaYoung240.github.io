@@ -53,7 +53,8 @@ webmaster_verifications:
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
-
+  
+google-site-verification: googlea7991d5ded86531c.html
 
 google_analytics:
   id: 'UA-298970324-1' 
