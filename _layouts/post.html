@@ -136,18 +136,18 @@ tail_includes:
       const urlKey = `clapCount-${window.location.pathname}`;
 
       // 로컬 스토리지에서 클랩 수 불러오기
-      const savedClapCount = localStorage.getItem(urlKey) || 0;
+      let savedClapCount = parseInt(localStorage.getItem(urlKey)) || 0;
       applauseButton.setAttribute("claps", savedClapCount);
 
-      // 박수 버튼 클릭 시 로컬 스토리지에 저장
+      // 박수 버튼 클릭 시 로컬 스토리지에 저장 및 업데이트
       applauseButton.addEventListener("click", function() {
-        let clapCount = parseInt(localStorage.getItem(urlKey) || 0);
-        clapCount++;
-        localStorage.setItem(urlKey, clapCount);
-        applauseButton.setAttribute("claps", clapCount);
+        savedClapCount++;
+        localStorage.setItem(urlKey, savedClapCount);
+        applauseButton.setAttribute("claps", savedClapCount);
       });
     });
   </script>
+
 
 
   <div class="post-tail-wrapper text-muted">
