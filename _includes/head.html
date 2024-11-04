@@ -50,6 +50,7 @@
 
   {{ seo_tags }}
 
+
   <title>
     {%- unless page.layout == 'home' -%}
       {{ page.title | append: ' | ' }}
@@ -58,6 +59,9 @@
   </title>
 
   {% include_cached favicons.html %}
+
+  <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
+  <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
 
   <!-- Resource Hints -->
   {% unless site.assets.self_host.enabled %}
