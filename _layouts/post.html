@@ -125,6 +125,11 @@ tail_includes:
     {{ content }}
   </div>
 
+  <applause-button class="mb6"
+    color={{ site.accent_color | default:'rgb(79,177,186)' }}
+    url={{ post.url | absolute_url }} >
+  </applause-button>
+
   <div class="post-tail-wrapper text-muted">
 
     <!-- categories -->
