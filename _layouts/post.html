@@ -125,30 +125,6 @@ tail_includes:
     {{ content }}
   </div>
 
-  <applause-button class="mb6"
-    color={{ site.accent_color | default:'rgb(79,177,186)' }}
-    url={{ post.url | absolute_url }} >
-  </applause-button>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const applauseButton = document.querySelector("applause-button");
-      const urlKey = `clapCount-${window.location.pathname}`;
-
-      // 로컬 스토리지에서 클랩 수 불러오기
-      let savedClapCount = parseInt(localStorage.getItem(urlKey)) || 0;
-      applauseButton.setAttribute("claps", savedClapCount);
-
-      // 박수 버튼 클릭 시 로컬 스토리지에 저장 및 업데이트
-      applauseButton.addEventListener("click", function() {
-        savedClapCount++;
-        localStorage.setItem(urlKey, savedClapCount);
-        applauseButton.setAttribute("claps", savedClapCount);
-      });
-    });
-  </script>
-
-
 
   <div class="post-tail-wrapper text-muted">
 
