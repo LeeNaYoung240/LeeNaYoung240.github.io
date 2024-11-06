@@ -16,6 +16,9 @@ timezone:
 
 title: NaYoung's Blog # the main title
 
+jekyll-seo-tag:
+  title: "{{ page.title }} - NaYoung's Blog"
+
 tagline: The journey is the reward # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
