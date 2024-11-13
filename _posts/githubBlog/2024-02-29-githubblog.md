@@ -22,6 +22,18 @@ Github Blog는 다른 블로그 사이트들에 비해 난이도가 높다고 �
 
 Github Blog를 만들면서 수 많은 오류에 직면하며 여러 자료들을 참고하였고 감사한 마음으로 다른 누군가에게 도움을 주고자 글을 작성합니다.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4973093302710743"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4973093302710743"
+     data-ad-slot="9724457170"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 # 1. GitHub Blog란?
 ---
