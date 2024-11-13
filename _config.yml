@@ -16,8 +16,9 @@ timezone:
 
 title: NaYoung's Blog # the main title
 
+title_separator: "-"
 jekyll-seo-tag:
-  title: "{{ page.title }} - NaYoung's Blog"
+  title: null
 
 tagline: The journey is the reward # it will display as the subtitle
 
