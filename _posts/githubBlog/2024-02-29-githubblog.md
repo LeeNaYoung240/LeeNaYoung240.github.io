@@ -1,6 +1,6 @@
 ---
 title: GitHub Blog 만들기(layout:home, Home 버튼, -min.js 존재하지 않는, 이미지 반짝이는 shimmer 현상 오류 해결)
-author: The journey is the reward
+author: LeeNaYoung
 date:   2024-02-29 16:27:02 +09:00
 categories: [GitHub Blog]
 tags: [GitHub Blog, Github, blog, github 블로그 만들기, 깃허브 블로그, 깃허브 블로그 만들기, min.js 오류, 이미지 반짝이는 오류, shimmer, 사이드 바]
