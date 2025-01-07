@@ -74,6 +74,8 @@ tags: [programmers]
 2. 오른쪽 자식 노드의 인덱스 = 부모 노드의 인덱스 * 2 + 1
 3. 부모 노드의 인덱스 = 자식 노드의 인덱스 / 2
 
+<br>
+
 ## Heap(힙) 구현
 
 
@@ -92,6 +94,7 @@ tags: [programmers]
 <a  href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/1eb21cde-e8f4-4f5c-8358-dc36ae3a7dd2"  class="popup img-link"><img  src="https://github.com/user-attachments/assets/1eb21cde-e8f4-4f5c-8358-dc36ae3a7dd2"  alt="1"  loading="lazy"></a>
 <a  href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/86e78fca-1cb2-4b2e-9ce3-e5577deb49e2"  class="popup img-link"><img  src="https://github.com/user-attachments/assets/86e78fca-1cb2-4b2e-9ce3-e5577deb49e2"  alt="1"  loading="lazy"></a>
 
+<br>
 
 ## 최대 힙으로 가정
 
@@ -142,6 +145,8 @@ tags: [programmers]
 <a  href="https://github.com/LeeNaYoung240/LeeNaYoung240.github.io/assets/107848521/9c23ebd4-46ae-45e4-b592-e214e6d85467"  class="popup img-link"><img  src="https://github.com/user-attachments/assets/9c23ebd4-46ae-45e4-b592-e214e6d85467"  alt="1"  loading="lazy"></a>
 
 - 자식 노드보다 값이 작으므로 스위치
+
+<br>
 
 ## 자바에서 우선순위 큐
 
@@ -195,6 +200,8 @@ while(iter.hasNext()) {
 - `size()` : 사이즈
 
 - `toArray()` : 큐에 저장된 데이터 배열로 가져옴
+
+<br>
 
 # 더 맵게 - 프로그래머스
 
