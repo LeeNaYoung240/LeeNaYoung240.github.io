@@ -49,6 +49,6 @@ permalink: /about/
 
 💛 알고리즘 문제 풀이 연습 <a href="https://github.com/LeeNaYoung240/Algorithm">💁🏻‍♀️ Github</a><br>
 
-🤍 Get job 크레용 <a href="https://www.notion.so/Get-job-1e484a288599805f8c95c8435a8676ac">💁🏻‍♀️ Github</a><br>
+🤍 Get job 크레용 <a href="https://www.notion.so/Get-job-1e484a288599805f8c95c8435a8676ac">💁🏻‍♀️ Notion</a><br>
 
 
