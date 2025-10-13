@@ -38,6 +38,8 @@ permalink: /about/
 
 ## Project.
 
+📰 TODAYTER - 관리자는 기사를 발행하고 사용자는 뉴스를 읽고 소통하는 양방향 뉴스 플랫폼 <a href="https://github.com/LeeNaYoung240/todayter">💁🏻‍♀️ Github</a><br>
+
 🛫 DETOUR - 여행 일정 관리 및 공유 사이트️ <a href="https://github.com/LeeNaYoung240/detour">💁🏻‍♀️ Github</a><br>
 
  💻 CODE3LINE - 매일 하루에 코드 세 줄 정리를 도전하는 서버 <a href="https://github.com/LeeNaYoung240/code3linePlus">💁🏻‍♀️  Github</a><br>
